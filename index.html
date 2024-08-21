@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -60,7 +61,6 @@
         </div>
     </header>
 
-
     <main class="main">
         <section class="about">
             <div class="container">
@@ -68,7 +68,7 @@
                         <h1 class="about__title">Hey, I'm Faustynn</h1>
                         <p class="about__text">
                             I am Ukrainian, living in Slovakia & studying at STU FIIT since 2022. <br><br>
-                            Alongside my studies, I actively learn various technologies, programming languages, and work on improving my backend skills.<br>
+                            Alongside my studies, I actively learn various technologies, programming languages and work on improving my back-end skills.<br>
                             My hobbies include streaming on YouTube, coding new projects & playing video games :D<br><br>
                             On this website, you will learn a little bit more about all my projects.<br>
                         </p>
@@ -80,6 +80,7 @@
             <div class="container">
                 <div class="portfolio__inner">
                      <h1 class="portfolio__title">My Projects</h1>
+                    <p class="portfolio__text">All detail information you can read in README file after clicking on the project!</p>
                     <div class="portfolio__grid">
                         <a href="https://github.com/Faustynn/TG_group_bot" class="portfolio__item">
                             <h1>Global FIIT Bot</h1>
@@ -99,9 +100,9 @@
                                 Here you can contact me, learn about my work and also read about me.
                             </p>
                         </a>
-                        <a href="#" class="portfolio__item">
+                        <a href="https://github.com/Faustynn/MTAA_2024" class="portfolio__item">
                             <h1>UniMap Application</h1>
-                            <p>Some text</p>
+                            <p>Still in development :D</p>
                             <img class="project3_logo" src="./assets/images/GPS_app.png" alt="project_logo"/>
                         </a>
                     </div>
@@ -111,14 +112,49 @@
 
         <section class="contact">
             <div class="container">
+                <h1 class="contact__title">My Contacts</h1>
                 <div class="contact__inner">
-                     <h1 class="contact__title">My Contacts</h1>
+                    <div class="contact__grid">
+                        <div class="contact__place-text">
+                            <h3 class="contact__email_title">Have a great idea?</h3>
+                            <p class="contact__email_text">Reach out through the form below or connect with me on social media!</p>
+                        </div>
+                        <div class="contact__grid-item">
+                            <div class="contact__item">
+                                <h1>Gmail:</h1>
+                                <a href="mailto:meredovnasar@gmail.com">
+                                    <img src="assets/images/socials/social_gmail.png" alt="Gmail">
+                                </a>
+                            </div>
+                            <div class="contact__item">
+                                <h1>GitHub:</h1>
+                                <a href="https://github.com/Faustynn">
+                                    <img src="assets/images/socials/git_white.png" alt="GitHub">
+                                </a>
+                            </div>
+                            <div class="contact__item">
+                                <h1>Telegram:</h1>
+                                <a href="https://t.me/faustynn">
+                                    <img src="assets/images/socials/social_telegram.png" alt="Telegram">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__place">
+                        <form action="mailto:meredovnasar@gmail.com" method="post" enctype="text/plain" class="contact__form">
+                            <label for="email_subject">Email Title:</label>
+                            <input type="text" id="email_subject" name="subject" required>
 
+                            <label for="email_body">Email Content:</label>
+                            <textarea id="email_body" name="body" rows="4" required></textarea>
+
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
 
     <footer class="footer">
         <div class="container">
@@ -135,17 +171,17 @@
                     <p class="footer__text">You can contact me on:</p>
                     <ul class="footer__social">
                         <li class="social-logo_item">
-                            <a href="#">
+                            <a href="https://github.com/Faustynn">
                                 <img src="assets/images/socials/social_github.png" alt="GitHub">
                             </a>
                         </li>
                         <li class="social-logo_item">
-                            <a href="#">
+                            <a href="mailto:meredovnasar@gmail.com">
                                 <img src="assets/images/socials/social_gmail.png" alt="Gmail">
                             </a>
                         </li>
                         <li class="social-logo_item">
-                            <a href="#">
+                            <a href="https://t.me/faustynn">
                                 <img src="assets/images/socials/social_telegram.png" alt="Telegram">
                             </a>
                         </li>
